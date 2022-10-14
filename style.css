@@ -1,0 +1,20 @@
+body{
+    background-color: #ffffff;
+    margin-left: 50px;
+}
+
+header {
+    font-family:'Oswald', sans-serif;
+    font-size: 25px;
+}
+
+p {
+    font-family: 'Source Serif Pro', serif;
+    color: #2f3542;
+    font-size: 18px;
+    font-weight: 500;
+ }
+
+p:last-child {
+    font-size: 15px;    
+}
