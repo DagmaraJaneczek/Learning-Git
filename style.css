@@ -6,8 +6,14 @@ body{
 header {
     font-family:'Oswald', sans-serif;
     font-size: 25px;
+    border: 2px solid black;
+    max-width: 700px;
     background-color: black;
-    color: #fff;
+    color: white;
+}
+
+h1, h3 {
+    padding-left: 10px;
 }
 
 p {
@@ -15,8 +21,14 @@ p {
     color: #2f3542;
     font-size: 18px;
     font-weight: 500;
+    padding-left: 10px;
  }
 
 p:last-child {
     font-size: 15px;    
+}
+
+.text-box {
+    border: 2px solid black;
+    max-width: 700px;
 }
