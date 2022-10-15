@@ -25,7 +25,9 @@ p {
  }
 
 p:last-child {
-    font-size: 15px;    
+    font-size: 15px; 
+    background-color: black;
+    color: #ffffff;   
 }
 
 .text-box {
