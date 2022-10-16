@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/DagmaraJaneczek/Learning-Git/issues"
   },
-  "homepage": "https://github.com/DagmaraJaneczek/Learning-Git#readme"
+  "homepage": "https://github.com/DagmaraJaneczek/Learning-Git#readme",
+  "devDependencies": {
+    "browser-sync": "^2.27.10"
+  }
 }

@@ -34,3 +34,13 @@ p:last-child {
     border: 2px solid black;
     max-width: 700px;
 }
+
+@media (max-width: 768px) {
+    body {
+        margin-left: 5px;
+    }
+
+    p {
+        padding-right: 10px;
+    }
+}
