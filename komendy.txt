@@ -1,0 +1,38 @@
+Dagmara@DESKTOP-PTONDD8 MINGW64 /d/Projects/Learning-Git (main)
+$ cat package.json
+{
+  "name": "learning-git",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DagmaraJaneczek/Learning-Git.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DagmaraJaneczek/Learning-Git/issues"
+  },
+  "homepage": "https://github.com/DagmaraJaneczek/Learning-Git#readme",
+  "devDependencies": {
+    "browser-sync": "^2.27.10",
+    "html-validate": "^7.6.0"
+  }
+}
+
+Dagmara@DESKTOP-PTONDD8 MINGW64 /d/Projects/Learning-Git (main)
+$ npm exec html-validate index.html
+
+D:\Projects\Learning-Git\index.html
+   8:49   error  Trailing whitespace  no-trailing-whitespace
+  55:107  error  Trailing whitespace  no-trailing-whitespace
+
+✖ 2 problems (2 errors, 0 warnings)
+
+More information:
+  https://html-validate.org/rules/no-trailing-whitespace.html

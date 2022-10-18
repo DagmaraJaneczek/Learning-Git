@@ -1,26 +1,5 @@
 {
-    "extends": [  
-        "html-validate:recommended" ,
-        "my-npm-package" , 
-        "my-plugin:custom" , 
-        "./file"  
-    ]
-  }
-
- {
-    "rules": {
-      "some-rules": "severity",
-      "other-rule": ["severity", { "option": true }]
-    }
- }
-
-  {
-    "elements": [
-      "html5",
-      "my-npm-package",
-      "./file",
-      {
-        /* inline metadata */
-      }
-    ]
-  }
+  "extends": [
+    "html-validate:recommended"
+  ]
+}
